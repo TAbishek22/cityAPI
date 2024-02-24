@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Indian Cities</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Nunito");
+            body {
+                font-family: "Nunito", sans-serif;
+                background-color: #f5f5f5;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #ffffff80;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            #city-list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            .city-card {
+                border: 2px solid #ddddddd1;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+            .city-name {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .city-population {
+                color: #777;
+                font-size: 16px;
+            }
+            .btn {
+                height: 40px;
+                width: 60px;
+                border-radius: 5px;
+                border-color: rgb(158, 191, 251);
+                background-color: rgb(248, 238, 225);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Indian Cities</h1>
+            <div id="city-list"></div>
+            <button id="bttn" class="btn">Next</button>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
